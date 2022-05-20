@@ -39,6 +39,7 @@ The designs were created to the following widths:
 }
 
 body {
+    font-size: 62.5%;
     background-color: var(--violet);
     background-image: url('./images/bg-mobile.svg');
     background-size: contain;
@@ -60,29 +61,81 @@ header {
 
 header a img{
     width: 35vw;
-    margin-left: 30px;
+    
+margin-left: 30px;
 }
+
 
 .image--container {
     width: 95%;
-    margin: 25px;
+    margin: 20px 0 20px 30px;
+    
 }
 
 .image--container img {
-    width: 90%;
+    width: 87%;
+    margin 0 auto;
 }
 
 .title--container {
     text-align: center;
-    margin: 2.2rem;
+    margin: 10px 20px 20px 10px;
     padding-top: 20px;
+   
+}
+.title--container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 1.6rem;
     
 }
 
-.title--container h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: var(--white);
-    font-size: 1.4rem;
-    letter-spacing: 0.05rem;
+.copy--container {
+   
+    text-align: center;
+    margin: 0 30px 0 30px;
+    
 }
+
+.copy--container p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--white);
+    letter-spacing: 0.02rem;
+    line-height: 1.5rem;
+}
+
+.button--container {
+    display: flex;
+    height: 40px;
+    width: 220px;
+    background-color: var(--white);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 30px auto;
+    box-shadow: 1px 2px 4px rgb(41, 41, 41);
+    
+}
+
+.button--container a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: var(--violet);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+footer {
+    width: 100vW;
+    height: 20vh;
+    display: flex;
+
+}
+
+
