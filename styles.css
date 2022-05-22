@@ -131,6 +131,17 @@ margin-left: 30px;
 
 }
 
+.button--container:hover {
+
+    background-color: var(--magenta);
+    
+    
+}
+
+.button--container a:hover {
+    color: var(--white)
+}
+
 footer {
     width: 100vW;
     height: 20vh;
@@ -159,6 +170,8 @@ nav ul {
     width: 25px;
     height: 25px;
     margin: 50px 10px 0 10px;
+}
 
-
+.icon:hover {
+    filter: invert(0.4) sepia(1) hue-rotate(260deg) saturate(400%);
 }
